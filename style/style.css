@@ -1,0 +1,117 @@
+@font-face {
+  font-family: "RedRose";
+  src: url(../assets/red_rose/RedRose-Regular.ttf);
+}
+
+.start {
+  width: 50%;
+  height: 230px;
+  background-color: #754fff;
+  margin: auto auto;
+  border-radius: 20px;
+}
+
+.start .nick {
+  font-weight: bold;
+  display: -ms-grid;
+  display: grid;
+  color: white;
+  font-size: 2.5vw;
+  font-family: RedRose;
+  line-height: 2.55vw;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.start .name {
+  display: -ms-grid;
+  display: grid;
+  color: white;
+  font-size: 1.2vw;
+  font-family: RedRose;
+  line-height: 1.3vw;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.start .line {
+  width: 60%;
+  height: 4px;
+  margin: 0 auto;
+  background-color: white;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.start .desc {
+  font-weight: lighter;
+  display: -ms-grid;
+  display: grid;
+  color: white;
+  font-size: 1.2vw;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  line-height: 1.3vw;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.skills {
+  width: 50%;
+  margin: 5px auto;
+  display: -ms-grid;
+  display: grid;
+}
+
+.skills .card {
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 60px;
+  background-color: #5a4b91;
+}
+
+.skills .card .image {
+  margin: auto 0;
+  height: 58px;
+  width: 58px;
+  background-color: white;
+}
+
+.skills .card .name {
+  margin-left: 5px;
+  font-weight: lighter;
+  display: -ms-grid;
+  display: grid;
+  color: white;
+  font-size: 1.7vw;
+  font-family: RedRose;
+  line-height: 1.7vw;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.bd {
+  width: 100vw;
+  text-align: center;
+}
+
+img {
+  height: 50vh;
+  margin: 5px;
+}
+
+video {
+  height: 50vh;
+  margin: 5px;
+}
+/*# sourceMappingURL=style.css.map */
