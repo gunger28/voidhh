@@ -13,7 +13,7 @@ function darwAll(){
         const decider = Math.random() * 100
         if(decider < 50 && counterV < sizeV){
             counterV = counterV + 1
-             body.innerHTML += "<video autoplay muted loop controls=\"controls\">" +
+             body.innerHTML += "<video muted loop controls=\"controls\">" +
              "<source src=\"./assets/vid/v (" + counterV + ").webm\"" + 
              "</video>"
             // body.innerHTML += "<div>" + counterV + "</div>"
