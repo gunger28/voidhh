@@ -5,7 +5,7 @@ darwAll()
 function darwAll(){
 
     const body = document.getElementById('body');
-    let size = 65
+    let size = 66
     let sizeV = 27
     let counterV = 0
     for (let i = 1; i < size+1; i++) {
